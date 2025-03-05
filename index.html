@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Watch all Roomies episodes!</title>
-    <link rel="stylesheet" href="styles.css"
-  </head>
-  <body>
-    <h1>Welcome to a silly website where you can watch the uh Roomies episodes FOR free :D (you can do that on youtube but this cooler)</h1>
-    <p>also if you cant play it, try opening the video in miniplayer then bringing it back to the tab, or right click the videos and press show all controls.</p>
-<video width="1002" height="619" autoplay>
-  <source src="Untitled video - Made with Clipchamp (82).mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-    <br>
-<video width="1002" height="619" autoplay>
-  <source src="Untitled video - Made with Clipchamp (84).mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
-    <br>
-  <p><b>Here are some funny pictures/videos of roomies stuff :D</b></p>
-  <img src="bruh.webp" alt="freaky aah">
- <br>
-    <img src="doggy.webp" alt="fart sfx">
- <br>
-    <video width="531" height="406" autoplay>
-  <source src="Untitled_video_-_Made_with_Clipchamp_90.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-  <br>
- <img src="real.webp" alt="hes so real for that">
-    <br>
-     <img src="bro.webp" alt="dawg 😭">
-    <br>
-     <img src="lol.webp" alt="kai cenat referance">
-    <br>  
-    <img src="haha lol bad at video games lol.webp" alt="block blast"> 
-    <p><b>Sneak peeks</b></p>
-   <img src="point.webp" alt=":0">
-    <br> 
-    <img src="vs.webp" alt="omg">
-    <br>
-     <video width="531" height="406" autoplay>
-  <source src="Untitled video - Made with Clipchamp (91).mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-    <p><b>Creator's log! This is where you'll find info on development and struggles and stuff (WARNING: I might start trauma dumping and venting, so be warned.)</b></p>
-    <p><b>DAY ONE: Not exactly first day of working, but it's been going good on eps. 3. My friend is working on animating the fight scene for episode 3. I PROMISE it won't be like Monika IRL.</b></p>
-    <p><b>DAY TWO: My friend got sick at the worst possible time. I'm gonna start production on eps. 4, so expect an earlier episode 4 release.</b></p>
-    <p><b>DAY THREE: I forgot to update this but like sigma becasuse i have an idea for eps. 4... heh... many people may not like what's coming... heh...</b></p>
-    <p><b>DAY FOUR: I HAVE NO IDEAS FOR EPISODE 4. I'm thinking maybe a fair or something. Hmmm... I'm gonna start brainstorming and writing down scripts.
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Watch all Roomies episodes!</title>
+		<link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+	</head>
+	<body>
+		<h1>Welcome to a silly website where you can watch the uh Roomies episodes FOR free :D (you can do that on YouTube but this is cooler)</h1>
+		<p>Also, if you can't play it, try opening the video in mini-player and then bringing it back to the tab, or right-click the videos and press 'Show All Controls'.</p>
+    <main>
+      <video width="1002" height="619" id="ep1" controls>
+        <source src="Untitled video - Made with Clipchamp (82).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="1002" height="619" id="ep2" controls>
+        <source src="Untitled video - Made with Clipchamp (84).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+		</main>
+		<p><strong>Here are some funny pictures/videos of Roomies stuff :D</strong></p>
+    <div class="slideshow-container">
+      <div class="slides">
+        <img src="bruh.webp" style="width:100%">
+      </div>
+      <div class="slides">
+        <img src="real.webp" style="width:100%">
+      </div>
+      <div class="slides">
+        <img src="doggy.webp" style="width:100%">
+      </div>
+      <div class="slides">
+        <video width="531" height="406" controls>
+          <source src="Untitled_video_-_Made_with_Clipchamp_90.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="slides">
+        <img src="bro.webp" style="width:100%">
+      </div>
+      <div class="slides">
+        <img src="lol.webp" style="width:100%">
+      </div>
+      <div class="slides">
+        <img src="haha lol bad at video games lol.webp" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+      <br>
+		<p><strong>Sneak peeks</strong></p>
+    <div class="slideshow-container">
+      <div class="slides2">
+        <img src="point.webp" style="width:100%">
+      </div>
+      <div class="slides2">
+        <img src="vs.webp" style="width:100%">
+      </div>
+      <div class="slides2">
+        <video width="531" height="406" controls>
+          <source src="Untitled video - Made with Clipchamp (91).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+		<p><strong>Creator's log! This is where you'll find info on development and struggles and stuff (WARNING: I might start trauma dumping and venting, so be warned.)</strong></p>
+		<p><strong>DAY ONE:</strong> Not exactly the first day of working, but it's been going good on eps. 3. My friend is working on animating the fight scene for episode 3. I PROMISE it won't be like Monika IRL.</p>
+		<p><strong>DAY TWO:</strong> My friend got sick at the worst possible time. I'm gonna start production on eps. 4, so expect an earlier episode 4 release.</p>
+		<p><strong>DAY THREE:</strong> I forgot to update this, but like Sigma, because I have an idea for eps. 4... heh... many people may not like what's coming... heh...</p>
+		<p><strong>DAY FOUR:</strong> I HAVE NO IDEAS FOR EPISODE 4. I'm thinking maybe a fair or something. Hmmm... I'm gonna start brainstorming and writing down scripts.</p>
+	</body>
+</html>

@@ -1,7 +1,47 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(92, 114, 121);
   color: white;
   text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 100%);
+}
+main > *{
+  padding:none;
+  width:50%;
+}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
 }
